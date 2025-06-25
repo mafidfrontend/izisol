@@ -88,7 +88,7 @@ export default function LinkInBio() {
         {/* CTA Buttons Section */}
         <div className="space-y-5 mb-8">
           <Link
-            href="https://wa.me/your-number"
+            href="https://wa.me/+998946602727"
             className="flex items-center justify-center w-full bg-gradient-to-r from-[#25D366] via-[#128C7E] to-[#25D366] rounded-3xl p-5 shadow-2xl hover:shadow-3xl transform hover:scale-110 hover:rotate-1 active:scale-95 transition-all duration-300 group relative overflow-hidden"
           >
             <div className="absolute inset-0 bg-white/10 rounded-3xl transform scale-0 group-hover:scale-100 transition-transform duration-500"></div>
@@ -124,7 +124,7 @@ export default function LinkInBio() {
           </Link>
 
           <Link
-            href="https://your-portfolio.com"
+            href="https://izisol.uz"
             className="flex items-center justify-center w-full bg-gradient-to-r from-purple-500 via-purple-600 to-purple-500 rounded-3xl p-5 shadow-2xl hover:shadow-3xl transform hover:scale-110 hover:-rotate-1 active:scale-95 transition-all duration-300 group relative overflow-hidden"
           >
             <div className="absolute inset-0 bg-white/10 rounded-3xl transform scale-0 group-hover:scale-100 transition-transform duration-500"></div>
@@ -136,19 +136,7 @@ export default function LinkInBio() {
           </Link>
 
           <Link
-            href="https://notion.so/your-company-profile"
-            className="flex items-center justify-center w-full bg-gradient-to-r from-blue-500 via-blue-600 to-blue-500 rounded-3xl p-5 shadow-2xl hover:shadow-3xl transform hover:scale-110 hover:rotate-1 active:scale-95 transition-all duration-300 group relative overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-white/10 rounded-3xl transform scale-0 group-hover:scale-100 transition-transform duration-500"></div>
-            <FileText className="w-7 h-7 text-white mr-4 group-hover:scale-125 group-hover:rotate-12 transition-all duration-300 relative z-10" />
-            <span className="text-white font-bold text-xl relative z-10">{t("companyProfile")}</span>
-            <div className="absolute right-4 text-white/50 group-hover:text-white transition-colors">
-              <Zap className="w-5 h-5" />
-            </div>
-          </Link>
-
-          <Link
-            href="https://your-services.com"
+            href="https://websol.uz"
             className="flex items-center justify-center w-full bg-gradient-to-r from-[#bcff58] via-[#67c096] to-[#bcff58] rounded-3xl p-6 shadow-2xl hover:shadow-3xl transform hover:scale-115 active:scale-95 transition-all duration-300 group relative overflow-hidden border-4 border-white"
           >
             <div className="absolute inset-0 bg-white/20 rounded-3xl transform scale-0 group-hover:scale-100 transition-transform duration-500"></div>
