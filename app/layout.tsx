@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Izisol - Freelance Company",
+  title: "Websol - Freelance Company",
   description: "Professional freelance solutions for E-commerce, CRM and Web development projects.",
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
     generator: 'v0.dev'

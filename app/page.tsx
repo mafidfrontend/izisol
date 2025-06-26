@@ -3,7 +3,7 @@
 import { useState } from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { MessageCircle, Youtube, Globe, FileText, ShoppingBag, Phone, Star, Sparkles, Zap, Rocket } from "lucide-react"
+import { MessageCircle, ShoppingBag, Phone, Star, Sparkles, Zap, Rocket } from "lucide-react"
 import { ContactForm } from "@/components/contact-form"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { translations, type Language, type TranslationKey } from "@/lib/translations"
@@ -15,7 +15,6 @@ export default function LinkInBio() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#bcff58] via-[#67c096] to-[#bcff58] relative overflow-hidden">
-      {/* Animated Background Elements */}
       <div className="absolute inset-0">
         <div className="absolute top-10 left-4 w-20 h-20 bg-white/10 rounded-full animate-bounce delay-1000"></div>
         <div className="absolute top-32 right-8 w-12 h-12 bg-[#bcff58]/20 rounded-full animate-pulse"></div>
@@ -25,12 +24,10 @@ export default function LinkInBio() {
       </div>
 
       <div className="container mx-auto px-6 py-8 max-w-sm relative z-10">
-        {/* Language Switcher */}
         <div className="flex justify-end mb-6">
           <LanguageSwitcher currentLanguage={currentLanguage} onLanguageChange={setCurrentLanguage} />
         </div>
 
-        {/* Profile Section */}
         <div className="text-center mb-8 relative">
           <div className="absolute -top-4 -left-4 text-[#bcff58] animate-spin-slow">
             <Sparkles className="w-8 h-8" />
@@ -43,7 +40,7 @@ export default function LinkInBio() {
             <div className="absolute inset-0 bg-gradient-to-r from-[#bcff58] to-[#67c096] rounded-full animate-pulse"></div>
             <Image
               src="./6.png"
-              alt="Izisol Profile"
+              alt="Websol Profile"
               fill
               className="rounded-full object-cover border-4 border-white shadow-2xl relative z-10 transform hover:scale-110 transition-transform duration-300"
             />
@@ -60,7 +57,6 @@ export default function LinkInBio() {
           </div>
         </div>
 
-        {/* Testimonials Section */}
         <div className="mb-8 transform transition-transform duration-300">
           <div className="bg-gradient-to-r from-white/95 to-white/90 backdrop-blur-md rounded-3xl p-5 shadow-2xl border-2 border-white/60 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-20 h-20 bg-[#bcff58]/10 rounded-full -translate-y-10 translate-x-10"></div>
@@ -85,7 +81,6 @@ export default function LinkInBio() {
           </div>
         </div>
 
-        {/* CTA Buttons Section */}
         <div className="space-y-5 mb-8">
           <Link
             href="https://wa.me/+998946602727"
@@ -100,7 +95,7 @@ export default function LinkInBio() {
           </Link>
 
           <Link
-            href="https://t.me/izisoluz"
+            href="https://t.me/websoluz"
             className="flex items-center justify-center w-full bg-gradient-to-r from-white via-gray-50 to-white rounded-3xl p-5 shadow-2xl border-4 border-[#bcff58] hover:shadow-3xl transform hover:scale-110 hover:-rotate-1 active:scale-95 transition-all duration-300 group relative overflow-hidden"
           >
             <div className="absolute inset-0 bg-[#bcff58]/5 rounded-3xl transform scale-0 group-hover:scale-100 transition-transform duration-500"></div>
@@ -108,18 +103,6 @@ export default function LinkInBio() {
             <span className="text-black font-bold text-xl relative z-10">{t("telegram")}</span>
             <div className="absolute right-4 text-[#67c096]/50 group-hover:text-[#67c096] transition-colors">
               <Zap className="w-5 h-5" />
-            </div>
-          </Link>
-
-          <Link
-            href="https://izisol.uz"
-            className="flex items-center justify-center w-full bg-gradient-to-r from-purple-500 via-purple-600 to-purple-500 rounded-3xl p-5 shadow-2xl hover:shadow-3xl transform hover:scale-110 hover:-rotate-1 active:scale-95 transition-all duration-300 group relative overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-white/10 rounded-3xl transform scale-0 group-hover:scale-100 transition-transform duration-500"></div>
-            <Globe className="w-7 h-7 text-white mr-4 group-hover:scale-125 group-hover:-rotate-12 transition-all duration-300 relative z-10" />
-            <span className="text-white font-bold text-xl relative z-10">{t("ourWork")}</span>
-            <div className="absolute right-4 text-white/50 group-hover:text-white transition-colors">
-              <Rocket className="w-5 h-5" />
             </div>
           </Link>
 
@@ -136,7 +119,6 @@ export default function LinkInBio() {
           </Link>
         </div>
 
-        {/* Quick Contact */}
         <ContactForm language={currentLanguage} />
       </div>
     </div>

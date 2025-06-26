@@ -1,10 +1,10 @@
 export const translations = {
   ru: {
-    name: "Izisol",
+    name: "Websol",
     description: "Профессиональные фриланс решения для E-commerce, CRM и веб-разработки проектов",
     happyClients: "50+ Довольных Клиентов",
     testimonial:
-      "🎯 Izisol выполнил нашу e-commerce платформу раньше срока. Профессиональный сервис и отличные результаты!",
+      "🎯 Websol выполнил нашу e-commerce платформу раньше срока. Профессиональный сервис и отличные результаты!",
     testimonialAuthor: "- Сара К., Владелец Интернет-Магазина",
     whatsapp: "WhatsApp",
     telegram: "Telegram",
@@ -21,11 +21,11 @@ export const translations = {
     successMessage: "Спасибо! Мы свяжемся с вами в течение 24 часов.",
   },
   uz: {
-    name: "Izisol",
+    name: "Websol",
     description: "E-commerce, CRM va Web loyihalar uchun professional freelance yechimlari",
     happyClients: "50+ Mamnun Mijozlar",
     testimonial:
-      "🎯 Izisol bizning e-commerce platformamizni muddatdan oldin tayyorladi. Professional xizmat va ajoyib natijalar!",
+      "🎯 Websol bizning e-commerce platformamizni muddatdan oldin tayyorladi. Professional xizmat va ajoyib natijalar!",
     testimonialAuthor: "- Sara K., Online Do'kon Egasi",
     whatsapp: "WhatsApp",
     telegram: "Telegram",
@@ -42,11 +42,11 @@ export const translations = {
     successMessage: "Rahmat! Biz siz bilan 24 soat ichida bog'lanamiz.",
   },
   en: {
-    name: "Izisol",
+    name: "Websol",
     description: "Professional freelance solutions for E-commerce, CRM and Web development projects",
     happyClients: "50+ Happy Clients",
     testimonial:
-      "🎯 Izisol delivered our e-commerce platform ahead of schedule. Professional service and excellent results!",
+      "🎯 Websol delivered our e-commerce platform ahead of schedule. Professional service and excellent results!",
     testimonialAuthor: "- Sarah K., Online Store Owner",
     whatsapp: "WhatsApp",
     telegram: "Telegram",
