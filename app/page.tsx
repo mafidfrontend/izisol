@@ -61,7 +61,7 @@ export default function LinkInBio() {
         </div>
 
         {/* Testimonials Section */}
-        <div className="mb-8 transform hover:scale-105 transition-transform duration-300">
+        <div className="mb-8 transform transition-transform duration-300">
           <div className="bg-gradient-to-r from-white/95 to-white/90 backdrop-blur-md rounded-3xl p-5 shadow-2xl border-2 border-white/60 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-20 h-20 bg-[#bcff58]/10 rounded-full -translate-y-10 translate-x-10"></div>
             <div className="absolute bottom-0 left-0 w-16 h-16 bg-[#67c096]/10 rounded-full translate-y-8 -translate-x-8"></div>
