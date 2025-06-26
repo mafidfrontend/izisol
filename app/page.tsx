@@ -100,7 +100,7 @@ export default function LinkInBio() {
           </Link>
 
           <Link
-            href="https://t.me/your-channel"
+            href="https://t.me/izisoluz"
             className="flex items-center justify-center w-full bg-gradient-to-r from-white via-gray-50 to-white rounded-3xl p-5 shadow-2xl border-4 border-[#bcff58] hover:shadow-3xl transform hover:scale-110 hover:-rotate-1 active:scale-95 transition-all duration-300 group relative overflow-hidden"
           >
             <div className="absolute inset-0 bg-[#bcff58]/5 rounded-3xl transform scale-0 group-hover:scale-100 transition-transform duration-500"></div>
